@@ -83,7 +83,6 @@ The **GitHub README Editor** is a powerful tool that bridges the gap between the
 - **Token Management**: Automatic token handling for API requests
 - **Permission Scopes**: Minimal required permissions for README management
 
----
 
 ## Key Features
 
