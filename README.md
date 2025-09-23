@@ -333,7 +333,7 @@ A: Yes, as long as you have write permissions to the repository, you can update 
 
 ## License
 
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+All rights Reserved.
 
 ---
 
