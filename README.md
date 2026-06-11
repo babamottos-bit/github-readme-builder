@@ -160,6 +160,7 @@ Clicking the three vertical dots reveals a dropdown with insertion utilities:
 4. Enter an optional commit message (e.g., "Update README documentation").
 5. Click **Commit**. The builder will securely push the README directly to the root of your GitHub repository.
 
+<img width="859" height="727" alt="image" src="https://github.com/user-attachments/assets/9ac03e53-9ce8-4a0b-b022-930aa2dc55e2" />
 
 
 ### Using AI Tools
