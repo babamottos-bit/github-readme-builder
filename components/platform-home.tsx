@@ -13,6 +13,7 @@ import { VerificationWorkspace } from '@/components/verification-workspace'
 import { ServiceCenter } from '@/components/service-center'
 import { PaymentOptions } from '@/components/payment-options'
 import { CommunityForum } from '@/components/community-forum'
+import { InformationCenter } from '@/components/information-center'
 
 const jobs = [
   { title: 'Senior Product Designer', company: 'Namaa Digital', location: 'Dubai, UAE', type: 'Full-time', salary: '$70k – $95k', logo: 'ND', tone: 'bg-primary text-primary-foreground' },
@@ -124,9 +125,11 @@ export function PlatformHome() {
 
       <PlatformReadiness />
 
+      <InformationCenter />
+
       <section id="companies" className="bg-primary text-primary-foreground"><div className="mx-auto max-w-7xl px-5 py-16 lg:px-8"><div className="grid gap-10 lg:grid-cols-[1fr_1.2fr] lg:items-center"><div><p className="mb-3 text-xs font-bold uppercase tracking-[0.16em] opacity-60">Built for ambitious teams</p><h2 className="text-4xl font-semibold leading-tight tracking-[-0.04em]">Make your next<br />move count.</h2><p className="mt-5 max-w-md leading-7 opacity-70">Reach the people and expertise that will take your business further. One platform, from first search to final success.</p><button className="mt-7 rounded-xl bg-primary-foreground px-5 py-3 text-sm font-semibold text-primary">Explore employer tools <ArrowUpRight className="ml-2 inline size-4" /></button></div><div className="grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-primary-foreground/15 bg-primary-foreground/15 sm:grid-cols-4">{[{icon: Users, label: 'Talent pool', value: '12k+'},{icon: Building2, label: 'Companies', value: '1.8k'},{icon: BriefcaseBusiness, label: 'Open roles', value: '4.2k'},{icon: Globe2, label: 'Countries', value: '42'}].map(item => <div key={item.label} className="bg-primary p-5"><item.icon className="size-5 opacity-70" /><p className="mt-8 text-2xl font-semibold">{item.value}</p><p className="mt-1 text-xs opacity-60">{item.label}</p></div>)}</div></div></div></section>
       <section className="border-t border-border bg-secondary/30"><div className="mx-auto max-w-7xl px-5 py-8 lg:px-8"><div className="rounded-2xl border border-border bg-card p-5"><p className="text-sm font-semibold text-foreground">Important placement notice</p><p className="mt-2 max-w-4xl text-sm leading-6 text-muted-foreground">32TechHub is a job facilitator and marketplace only. We help match and refer candidates, employers, recruiters, and service providers; we are not a guarantor of employment, payment, safety, performance, or any job outcome. Final salary, benefits, duties, working hours, start date, and all other terms and conditions are agreed directly between the employer and employee or contractor. Please review and confirm all terms before accepting an opportunity.</p></div></div></section>
-      <footer className="mx-auto flex max-w-7xl flex-col gap-5 px-5 py-8 text-sm text-muted-foreground sm:flex-row sm:items-center sm:justify-between lg:px-8"><div className="flex items-center gap-2 font-semibold text-foreground"><span className="grid size-6 place-items-center rounded-md bg-primary text-[9px] text-primary-foreground">32</span> TechHub</div><div className="flex flex-wrap gap-5"><Link href="#about">About</Link><Link href="#help">Help center</Link><Link href="#privacy">Privacy</Link><span>© 2026 ITEP Globe</span></div></footer>
+      <footer className="mx-auto flex max-w-7xl flex-col gap-5 px-5 py-8 text-sm text-muted-foreground sm:flex-row sm:items-center sm:justify-between lg:px-8"><div className="flex items-center gap-2 font-semibold text-foreground"><span className="grid size-6 place-items-center rounded-md bg-primary text-[9px] text-primary-foreground">32</span> TechHub</div><div className="flex flex-wrap gap-5"><Link href="#information">Information</Link><Link href="#help">Help center</Link><Link href="#privacy">Privacy</Link><Link href="#terms">Terms</Link><Link href="#newsletter">Bulletin</Link><span>© 2026 ITEP Globe</span></div></footer>
     </main>
   )
 }
