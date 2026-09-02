@@ -12,6 +12,7 @@ import { EcosystemDirectory } from '@/components/ecosystem-directory'
 import { VerificationWorkspace } from '@/components/verification-workspace'
 import { ServiceCenter } from '@/components/service-center'
 import { PaymentOptions } from '@/components/payment-options'
+import { CommunityForum } from '@/components/community-forum'
 
 const jobs = [
   { title: 'Senior Product Designer', company: 'Namaa Digital', location: 'Dubai, UAE', type: 'Full-time', salary: '$70k – $95k', logo: 'ND', tone: 'bg-primary text-primary-foreground' },
@@ -110,6 +111,8 @@ export function PlatformHome() {
       <EcosystemDirectory />
 
       <ServiceCenter />
+
+      <CommunityForum />
 
       <PaymentOptions />
 
