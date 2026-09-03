@@ -1,0 +1,7 @@
+{
+  "name": "github-readme-builder",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A GitHub README markdown builder",
+  "license": "MIT"
+}
