@@ -1,4 +1,23 @@
-# Github Readme Generator – ReadmeCodeGen
+# GitHub README Builder
+
+A production-ready Next.js landing page for shaping a clearer GitHub profile README. The live workspace includes automatic profile scanning and an instant README preview.
+
+## Local development
+
+```bash
+npm install
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000). Validate the project with `npm run lint`, `npm run typecheck`, and `npm run build`.
+
+## Deployment
+
+Deploy this repository to Vercel with the Next.js preset. No environment variables are required for the current scaffold. The `/api/health` endpoint returns a no-cache JSON health response for uptime checks.
+
+## Pull requests
+
+All changes should pass the CI workflow before merging into `main`.
 
 ## Table of Contents
 
